@@ -1,0 +1,213 @@
+@media screen and (max-width: 1110px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    header h4 {
+        font-size: 17px;
+    }
+
+    header h4 ~ div {
+        font-size: 14px;
+    }
+
+    header div:nth-of-type(2) {
+        font-size: 14px;
+    }
+
+    body .text-bigger {
+        font-size: 1.2rem;
+    }
+
+    main  h1 {
+        font-size: 30px;
+    }
+
+    main div:last-of-type {
+        font-size: 14px;
+    }
+
+    footer div:nth-of-type(1) h4 {
+        font-size: 17px;
+    }
+
+    footer div:nth-of-type(1) h4 ~ p {
+        font-size: 14px;
+    }
+
+    footer div:nth-of-type(1) h4 ~ a {
+        font-size: 12px;
+    }
+
+    footer div:nth-of-type(2) h2 {
+        font-size: 24px;
+    }
+
+    footer div:nth-of-type(2) h6 {
+        font-size: 16px;
+    }
+
+    footer div:nth-of-type(2) h6 ~ p {
+        font-size: 12px;
+    }
+
+    body footer .footer_p__width {
+        width: 350px;
+    }
+
+}
+
+html {
+    font-size: 16px;
+    margin: 0;
+}
+
+.content-width {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.padding-top-bottom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.btn {
+    padding: 0.7rem 2.5rem;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #0058A1;
+}
+
+.container-width {
+    width: 40%;
+}
+
+.header_h4__color {
+    color: #2B3048;
+}
+
+.header__color {
+    color: #5B617C;
+}
+
+.main-bg-image {
+    top: 0.6%;
+    left: 60%;
+    z-index: -1;
+}
+
+.absolute-z-index {
+    position: absolute;
+    top: 2%;
+    right: 19%;
+    z-index: -1;
+}
+
+
+.logo {
+    width: 158px;
+}
+
+main .main-container-width {
+    width: 50%;
+}
+
+main .main_a__color-blue-underline {
+    color: #007FEA;
+    text-decoration: underline;
+}
+
+main a:hover {
+    color: #1300EA;
+}
+
+.text-bigger {
+    font-size: 1.5rem;
+}
+
+.form {
+    background-color: #F6F7FA;
+}
+
+.form ol {
+    font-weight: bold;
+    color: #007FEA;
+}
+
+.form ol span {
+    font-weight: normal;
+    color:#000
+}
+
+.form .form-important {
+    border: 1px solid #FFA800;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 2rem 4rem;
+}
+
+.form .form-important_h3__size-color {
+    color: #FFA800;
+    font-weight: bold;
+}
+
+.form .form-important_p__size-color {
+    color: #2B3048;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.form .main-form {
+    border: 1px solid #CBD0E8;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 2rem;
+}
+
+label {
+    margin: 0;
+}
+
+.form-control {
+    margin: 0;
+    background-color: #F6F7FA;
+}
+
+.form-control:focus {
+    font-weight: bold;
+}
+
+.questions {
+    color: #fff;
+    background: #2B3048;
+}
+
+footer {
+    color: #fff;
+    background: #5B617C;
+}
+
+footer .footer_p__width {
+    width: 500px;
+}
+
+footer .footer_a__color-grey {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer .footer_a__color-grey-tel {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .footer_a__color-grey:hover {
+    color: grey;
+}
